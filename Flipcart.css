@@ -1,0 +1,91 @@
+.body{
+    background: #000000;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    background: #e6dada;
+    padding: 4px;
+}
+.logo{
+    width:10%;
+}
+.imglogo{
+    width: 45px;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80px;
+}
+.icons1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80px;
+   
+}
+.icons1:hover{
+    background: #ffffff;
+    color: #000000;
+   border-radius: 40px;  
+}
+.icons3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+}
+.form{
+    font-family:"font awesome";
+    height: 30px;
+    
+}
+
+.search{
+    border: 1px,solid,#c2bfbf;
+    padding: 12px;
+    background: #c2bfbf;
+    border-radius: 5px;
+    width: 40%;
+    height: 23px;
+    padding-top: 10px;
+}
+.offrDiv{
+    display: grid;
+
+}
+.offer
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    margin: 20px;
+    background: #776c6c;
+    border-radius: 9px;
+}
+#offer{
+   height: 60px;
+   max-width: 60px;
+
+   justify-self: center;
+}
+.ad{
+    width: 100%;
+}
+.deals{
+    display: flex;
+    justify-content: space-between;
+}
+.dealDiv{
+    border: 1px solid;
+    padding: 45px;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+.img{
+    max-width: 400px;
+     height: 150px;
+}
+.p1{
+    display: grid;
+    justify-content: center;
+}
