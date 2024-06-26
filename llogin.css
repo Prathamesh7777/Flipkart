@@ -36,12 +36,12 @@
 }
 .items{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 8px;
+    background-color: #ffffff;
 }
 .loginDiv{
     background: #2874f0;
-    border: 1px solid black;
     width: 25%;
     background-image: url(login_page_logo.png);
     background-repeat: no-repeat;
@@ -60,12 +60,18 @@
 }
 .loginDiv1{
     background: #ffffff;
-    border: 2px solid black;
     width: 35%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 30px;
+    padding-left: 5px;
 }
 .loginD{
     display: flex;
     height: 550px;
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 25px;
    }
 #button{
     outline: 0px;
@@ -74,21 +80,25 @@
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 10px;
+    padding: 15px;
+    color: #ffffff;
 }
 #loginp{
     outline: 0px;
     border: 0px;
-    width: 60%;
-    padding: 10px;
-    padding-top :50px; 
-    padding-left:20%;
-    padding-right: 20%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #cec7c7;
     border-spacing: 90%;
+    width: 80%;
+    height: 30px;
+   color: #cec7c7;
+   font-size: 17px;
 }
 
 #a1{
   
     text-align: center;
+}
+.a11{
+    text-decoration: none;
+    color: #2874f0;
 }
