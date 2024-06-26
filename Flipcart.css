@@ -4,11 +4,8 @@
 .head{
     display: flex;
     justify-content: space-between;
-    background: #e6dada;
+    background: #ffffff;
     padding: 4px;
-}
-.logo{
-    width:10%;
 }
 .imglogo{
     width: 45px;
@@ -34,20 +31,23 @@
     justify-content: space-evenly;
     width: 150px;
 }
-.form{
-    font-family:"font awesome";
-    height: 30px;
-    
+.inp{
+   
+    outline: 0px; 
+    border: 0px;  
+    font-family: bold;
+    font-size: 20px;
+    background-color: #e6f1ff;
 }
 
 .search{
-    border: 1px,solid,#c2bfbf;
-    padding: 12px;
-    background: #c2bfbf;
-    border-radius: 5px;
-    width: 40%;
-    height: 23px;
-    padding-top: 10px;
+    background: #e6f1ff;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
 }
 .offrDiv{
     display: grid;
@@ -59,7 +59,7 @@
     justify-content: space-between;
     padding: 7px;
     margin: 20px;
-    background: #776c6c;
+    background: #ffffff;
     border-radius: 9px;
 }
 #offer{
@@ -76,10 +76,11 @@
     justify-content: space-between;
 }
 .dealDiv{
-    border: 1px solid;
-    padding: 45px;
+    border: 1px solid rgb(204, 198, 198);
+    padding: 55px;
     padding-top: 5px;
-    border-radius: 15px;
+    border-radius: 5px;
+    padding-bottom: 15px;
 }
 .img{
     max-width: 400px;
